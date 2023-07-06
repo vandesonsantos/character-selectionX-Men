@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>X-Men</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/responsive.css">
+
+  </head>
+  <body>
+    <header class="header">
+      <img src="./src/image/logo.svg" alt="Logo">
+    </header>
+
+    <main class="container">
+      <section class="characters-selection">
+        <h1>Select a Character</h1>
+
+        <ul class="small-characters">
+
+          <li class="personagens" id="jean-grey" name="Jean Grey" data-information="Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, culpa cum. Totam quidem nihil, molestias fuga autem ullam quos, at temporibus laborum aspernatur corrupti.">
+            <img src="./src/image/jean-grey.jpg" alt="jean grey">
+          </li>
+
+          <li class="personagens" id="ciclope" name="Ciclope" data-information="Ele tem o poder de disparar rajadas ópticas por um acidente que aconteceu com ele quando criança, mas não consegue controlá-los.">
+            <img src="./src/image/ciclope.jpg" alt="ciclope">
+          </li>
+
+          <li class="personagens" id="lince-negra" name="Lince Negra" data-information="Totam eum soluta quidem nihil facilis neque officiis corporis, molestias fuga autem ullam quos, at temporibus laborum aspernatur corrupti.">
+            <img src="./src/image/lince-negra.jpg" alt="lince negra">
+          </li>
+
+          <li class="personagens" id="tempestade" name="Tempestade" data-information="Necessitatibus, culpa cum. Totam eum soluta quidem nihil facilis neque officiis corporis, molestias fuga autem ullam quos, at temporibus">
+            <img src="./src/image/tempestade.jpg" alt="tempestade">
+          </li>
+
+          <li class="personagens selecionado" id="wolverine" name="Wolverine" data-information="Ele tem o poder de magnetocinese, ou seja, controlar objetos de metal e criar campos magnéticos.">
+            <img src="./src/image/wolverine.jpg" alt="wolverine">
+          </li>
+
+          <li class="personagens" id="noturno" name="Noturno" data-information="Dolor sit amet consectetur adipisicing elit. Necessitatibus, culpa cum. Totam eum soluta quidem nihil facilis. Necessitatibus, culpa cum.">
+            <img src="./src/image/noturno.jpg" alt="noturno" data-information="consectetur adipisicing elit. Necessitatibus, culpa cum. Totam eum soluta quidem nihil facilis neque officiis corporis, molestias fuga autem ullam quos">
+          </li>
+
+          <li class="personagens" id="magneto" name="Magneto" data-information="adipisicing elit. Necessitatibus, culpa cum. Totam eum soluta quidem nihil facilis neque officiis corporis, molestias fuga autem ullam quos, at temporibus">
+            <img src="./src/image/magneto.jpg" alt="magneto">
+          </li>
+
+          <li class="personagens" id="vampira" name="Vampira" data-information="Totam eum soluta quidem nihil facilis neque officiis corporis, molestias fuga autem ull, facilis neque officiis corporis">
+            <img src="./src/image/vampira.jpg" alt="vampira">
+          </li>
+        </ul>
+      </section>
+
+      <section class="large-selected-character">
+        <img src="./src/image/wolverine.png" alt="personagem selecionado" class="big-character" id="image-selecionada">
+
+        <div class="information">
+          <h3 id="character-name">Wolverine</h3>
+          <p id="character-information">Ele tem o poder de magnetocinese, ou seja, controlar objetos de metal e criar campos magnéticos.</p>
+        </div>
+      </section>
+    </main>
+
+    <script type="module" src="./src/javascript/index.js"></script>
+
+  </body>
+</html>
